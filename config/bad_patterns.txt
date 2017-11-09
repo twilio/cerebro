@@ -1,0 +1,12 @@
+auth[\w]*\s*\=\s*[a-zA-Z0-9]{8,}
+password[\w]*\s*\=\s*[a-zA-Z0-9]{8,}
+password[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{8,40}
+s3[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+secret[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+credential[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+key[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+^aws[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+twilio[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+token[\w]*\s*\=\s*(\'+|\"+)[a-zA-Z0-9]{15,40}
+private\skey[\-]{5}
+^(acqusition|apidev-coop|bzip|crypt|django-server|pwd|setup-tools|telnet|urlib3|urllib) $

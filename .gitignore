@@ -1,0 +1,7 @@
+*.pyc
+*__pycache__*
+cerebro.db
+config/targets.yaml
+venv/*
+workspace/*
+
