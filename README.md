@@ -74,7 +74,7 @@ codebase entropy. Default is 20
 ## Design Notes
 There are 3 high-level components involved in the operation of *cerebro*, they are:
 * Git Level Operations
-    * Pulling the latest commit of the ```master``` branch from each repo in ```target_repos.txt```, checking for
+    * Pulling the latest commit of the ```master``` branch from each repo in ```targets.yaml```, checking for
     diffs in repo if repo had been previously scanned (i.e. pulled) and creating sub-directories with "diffed" content
     (i.e. stored in ```workspace/diffs```) for subsequent scanning.
 * Operating System Level Operations:
