@@ -4,4 +4,3 @@ cerebro.db
 config/targets.yaml
 venv/*
 workspace/*
-

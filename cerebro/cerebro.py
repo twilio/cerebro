@@ -598,6 +598,6 @@ class Cerebro(object):
         payload = {
             "channel": os.environ.get('SLACK_CHANNEL_OR_USER'),
             "username": "cerebro",
-            "text": new_tokens_found_text + new_blobs_found_text + payload_text + payload_footer
+            "text": new_tokens_found_text + new_blobs_found_text + payload_text
         }
         post(os.environ.get('SLACK_API_URL'), json=payload)
