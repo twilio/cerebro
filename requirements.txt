@@ -3,5 +3,5 @@ requests>=2.12.4
 GitPython==2.1.1
 coverage==4.3.4
 pytest-cov==2.4.0
-PyYAML==3.12
+PyYAML==4.2b1
 truffleHog>=1.0.4
