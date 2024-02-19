@@ -1,7 +1,8 @@
 mock==2.0.0
-requests>=2.12.4
+requests>=2.31.0
 GitPython==2.1.1
 coverage==4.3.4
 pytest-cov==2.4.0
 PyYAML==3.12
 truffleHog>=1.0.4
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
